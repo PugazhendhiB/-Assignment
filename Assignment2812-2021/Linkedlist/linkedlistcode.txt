@@ -1,0 +1,21 @@
+//Write a Java program to remove a specified element from a linked list.
+import java.util.LinkedList;
+public class Linkedlist_class{
+	public static void main(String[] args) {
+		LinkedList<String> list1=new LinkedList<String>();
+		list1.add("java");
+		list1.add("HTML");
+		list1.add("My Sql");
+		list1.add("Python");
+		list1.add("Cprogram");
+		list1.add("java script");
+		list1.add("core java");
+		list1.add("Springboot");
+		System.out.println("**************The Original linked list************");
+		System.out.println(list1);
+		list1.remove(2);
+		list1.remove(6);
+		System.out.println("**************The New linked list************** ");
+		System.out.println(list1);
+	}
+}
